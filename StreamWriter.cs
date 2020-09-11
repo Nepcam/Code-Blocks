@@ -1,6 +1,6 @@
- string line = "";
+string line = "";
 
-  StreamWriter sw = new StreamWriter("test.csv");
+StreamWriter sw = new StreamWriter("test.csv");
 
   foreach (Song song in playlist.SongList)
   {
@@ -8,4 +8,5 @@
 
     sw.WriteLine(line);
   }
-  sw.Close();
+
+sw.Close();
